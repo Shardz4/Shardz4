@@ -1,8 +1,7 @@
 # 👨‍💻 Arnav Sharma
 **Systems Architect | Machine Learning Engineer | Low-Level Enthusiast**
 
-I am a Computer Science & Engineering student focused on building high-performance, safety-critical systems. My work lives at the intersection of **Rust**, **Kernel Development**, and **Autonomous Perception**.
-
+I am a Computer Science & Engineering student focused on building high-performance, safety-critical systems. 
 ---
 
 ### 🛠️ The Tech Arsenal
@@ -18,12 +17,12 @@ I am a Computer Science & Engineering student focused on building high-performan
 
 ### 📈 Activity & Impact
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&count_private=true" alt="Arnav's Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Shardz4&show_icons=true&theme=tokyonight&count_private=true" alt="Arnav's Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shardz4&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight" alt="GitHub Streak" width="97%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shardz4&theme=tokyonight" alt="GitHub Streak" width="97%" />
 </p>
 
 ---
@@ -38,14 +37,14 @@ I am a Computer Science & Engineering student focused on building high-performan
 ---
 
 ### 📂 Current Contributions
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Shardz4&theme=tokyo-night)
 
 ---
 
 ### 🤝 Let's Connect
 <p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_PROFILE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="[https://linkedin.com/in](https://www.linkedin.com/in/arnav-sharma-z/)/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:arnav4324@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 **📍 Solan, Himachal Pradesh, India** **🎓 NIT Hamirpur (CSE)**
