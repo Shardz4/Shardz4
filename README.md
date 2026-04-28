@@ -10,7 +10,6 @@ I am a Computer Science & Engineering student focused on building high-performan
 | :--- | :--- |
 | **Low-Level** | `Rust` `C` `C++` `x86_64 Assembly` `Linux Kernel` |
 | **AI & Vision** | `PyTorch` `OpenCV` `TensorRT` `Deep Learning` |
-| **Backend/Web3** | `Go` `Solidity` `Leptos` `ScyllaDB` `Next.js` |
 | **Systems** | `Bare-metal OS` `Memory Management` `Distributed Systems` |
 
 ---
