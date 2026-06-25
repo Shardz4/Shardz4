@@ -103,18 +103,28 @@ def main():
     # Create the animated group node
     animated_group_str = f"""
     <g xmlns="http://www.w3.org/2000/svg">
-        <!-- Inner translation offsets Mario so his feet follow the line and he is centered -->
-        <g transform="translate(-20, -40)">
-            {mario_rects}
+        <g>
+            <!-- Motion animation following the line path -->
+            <animateMotion 
+                path="{line_path_d}" 
+                dur="14s" 
+                repeatCount="indefinite" 
+                rotate="auto"
+                calcMode="linear"
+            />
+            <!-- Inner group to perform local vertical jump animations relative to the moving path -->
+            <g>
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    values="-20,-40; -20,-75; -20,-40"
+                    keyTimes="0; 0.5; 1"
+                    dur="0.7s"
+                    repeatCount="indefinite"
+                />
+                {mario_rects}
+            </g>
         </g>
-        <!-- Motion animation following the line path -->
-        <animateMotion 
-            path="{line_path_d}" 
-            dur="12s" 
-            repeatCount="indefinite" 
-            rotate="auto"
-            calcMode="linear"
-        />
     </g>
     """
     
