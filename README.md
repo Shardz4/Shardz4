@@ -98,7 +98,7 @@
 ##  Progress Map
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shardz4&bg_color=1D2B53&color=F8F8F8&title_color=FBD000&line=5C94FC&point=E52521&area=true&area_color=5C94FC&border_color=1A1A1A&hide_border=false" alt="Activity Graph" />
+  <img src="assets/animated-activity.svg" alt="Activity Graph" width="100%" />
 </div>
 
 <div align="center">
