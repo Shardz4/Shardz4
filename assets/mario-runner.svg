@@ -1,0 +1,134 @@
+<svg viewBox="0 0 880 100" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" role="img" aria-label="Pixel runner banner">
+  <!-- sky -->
+  <rect x="0" y="0" width="880" height="100" fill="#5C94FC"/>
+
+  <!-- pixel clouds -->
+  <g fill="#F8F8F8">
+    <rect x="55" y="14" width="40" height="10"/>
+    <rect x="45" y="22" width="60" height="10"/>
+    <rect x="65" y="8" width="20" height="8"/>
+
+    <rect x="325" y="20" width="40" height="10"/>
+    <rect x="315" y="28" width="60" height="10"/>
+    <rect x="335" y="14" width="20" height="8"/>
+
+    <rect x="615" y="12" width="40" height="10"/>
+    <rect x="605" y="20" width="60" height="10"/>
+    <rect x="625" y="6" width="20" height="8"/>
+  </g>
+
+  <!-- floating "?" blocks -->
+  <g>
+    <g transform="translate(150,10)">
+      <rect width="36" height="36" fill="#FBD000" stroke="#1A1A1A" stroke-width="3"/>
+      <text x="18" y="26" font-family="monospace" font-size="22" font-weight="bold" fill="#1A1A1A" text-anchor="middle">?</text>
+    </g>
+    <g transform="translate(350,10)">
+      <rect width="36" height="36" fill="#FBD000" stroke="#1A1A1A" stroke-width="3"/>
+      <text x="18" y="26" font-family="monospace" font-size="22" font-weight="bold" fill="#1A1A1A" text-anchor="middle">?</text>
+    </g>
+    <g transform="translate(550,10)">
+      <rect width="36" height="36" fill="#FBD000" stroke="#1A1A1A" stroke-width="3"/>
+      <text x="18" y="26" font-family="monospace" font-size="22" font-weight="bold" fill="#1A1A1A" text-anchor="middle">?</text>
+    </g>
+    <g transform="translate(750,10)">
+      <rect width="36" height="36" fill="#FBD000" stroke="#1A1A1A" stroke-width="3"/>
+      <text x="18" y="26" font-family="monospace" font-size="22" font-weight="bold" fill="#1A1A1A" text-anchor="middle">?</text>
+    </g>
+  </g>
+
+  <!-- pipe (level-end decoration) -->
+  <g transform="translate(810,42)">
+    <rect x="0" y="10" width="46" height="30" fill="#00A800" stroke="#1A1A1A" stroke-width="3"/>
+    <rect x="-6" y="0" width="58" height="14" fill="#00C000" stroke="#1A1A1A" stroke-width="3"/>
+  </g>
+
+  <!-- brick ground -->
+  <defs>
+    <pattern id="bricks" width="40" height="18" patternUnits="userSpaceOnUse">
+      <rect width="40" height="18" fill="#B85B14"/>
+      <rect width="40" height="18" fill="none" stroke="#5C3A1E" stroke-width="3"/>
+      <line x1="20" y1="0" x2="20" y2="18" stroke="#5C3A1E" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="82" width="880" height="18" fill="url(#bricks)"/>
+
+  <!-- runner: outer group handles the left-to-right loop across the whole banner -->
+  <g>
+    <animateTransform attributeName="transform" type="translate"
+      values="-60,0;940,0" keyTimes="0;1" dur="7s" calcMode="linear" repeatCount="indefinite"/>
+
+    <!-- inner group handles the continuous hop/run bounce -->
+    <g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0;0,-14;0,0" keyTimes="0;0.5;1" dur="0.55s" calcMode="linear" repeatCount="indefinite"/>
+
+      <!-- sprite: Pixel-accurate NES small Mario jumping sprite -->
+      <g transform="translate(0,42)">
+        <rect x="32.5" y="0.0" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="15.0" y="2.5" width="12.5" height="2.5" fill="#E52521"/>
+        <rect x="32.5" y="2.5" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="12.5" y="5.0" width="22.5" height="2.5" fill="#E52521"/>
+        <rect x="35.0" y="5.0" width="5.0" height="2.5" fill="#FCD7B6"/>
+        <rect x="12.5" y="7.5" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="20.0" y="7.5" width="5.0" height="2.5" fill="#FCD7B6"/>
+        <rect x="25.0" y="7.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="27.5" y="7.5" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="32.5" y="7.5" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="10.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="12.5" y="10.0" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="15.0" y="10.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="17.5" y="10.0" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="25.0" y="10.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="27.5" y="10.0" width="5.0" height="2.5" fill="#FCD7B6"/>
+        <rect x="32.5" y="10.0" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="12.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="12.5" y="12.5" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="15.0" y="12.5" width="5.0" height="2.5" fill="#B85B14"/>
+        <rect x="20.0" y="12.5" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="27.5" y="12.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="30.0" y="12.5" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="37.5" y="12.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="15.0" width="5.0" height="2.5" fill="#B85B14"/>
+        <rect x="15.0" y="15.0" width="10.0" height="2.5" fill="#FCD7B6"/>
+        <rect x="25.0" y="15.0" width="12.5" height="2.5" fill="#B85B14"/>
+        <rect x="15.0" y="17.5" width="17.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="32.5" y="17.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="5.0" y="20.0" width="12.5" height="2.5" fill="#B85B14"/>
+        <rect x="17.5" y="20.0" width="2.5" height="2.5" fill="#E52521"/>
+        <rect x="20.0" y="20.0" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="27.5" y="20.0" width="2.5" height="2.5" fill="#E52521"/>
+        <rect x="30.0" y="20.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="2.5" y="22.5" width="17.5" height="2.5" fill="#B85B14"/>
+        <rect x="20.0" y="22.5" width="2.5" height="2.5" fill="#E52521"/>
+        <rect x="22.5" y="22.5" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="30.0" y="22.5" width="2.5" height="2.5" fill="#E52521"/>
+        <rect x="37.5" y="22.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="0.0" y="25.0" width="5.0" height="2.5" fill="#FCD7B6"/>
+        <rect x="5.0" y="25.0" width="15.0" height="2.5" fill="#B85B14"/>
+        <rect x="20.0" y="25.0" width="12.5" height="2.5" fill="#E52521"/>
+        <rect x="37.5" y="25.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="0.0" y="27.5" width="7.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="10.0" y="27.5" width="5.0" height="2.5" fill="#E52521"/>
+        <rect x="15.0" y="27.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="17.5" y="27.5" width="5.0" height="2.5" fill="#E52521"/>
+        <rect x="22.5" y="27.5" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="25.0" y="27.5" width="5.0" height="2.5" fill="#E52521"/>
+        <rect x="30.0" y="27.5" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="32.5" y="27.5" width="2.5" height="2.5" fill="#E52521"/>
+        <rect x="35.0" y="27.5" width="5.0" height="2.5" fill="#B85B14"/>
+        <rect x="2.5" y="30.0" width="2.5" height="2.5" fill="#FCD7B6"/>
+        <rect x="7.5" y="30.0" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="30.0" width="25.0" height="2.5" fill="#E52521"/>
+        <rect x="35.0" y="30.0" width="5.0" height="2.5" fill="#B85B14"/>
+        <rect x="5.0" y="32.5" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="12.5" y="32.5" width="22.5" height="2.5" fill="#E52521"/>
+        <rect x="35.0" y="32.5" width="5.0" height="2.5" fill="#B85B14"/>
+        <rect x="2.5" y="35.0" width="7.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="35.0" width="17.5" height="2.5" fill="#E52521"/>
+        <rect x="2.5" y="37.5" width="2.5" height="2.5" fill="#B85B14"/>
+        <rect x="10.0" y="37.5" width="10.0" height="2.5" fill="#E52521"/>
+      </g>
+    </g>
+  </g>
+</svg>
