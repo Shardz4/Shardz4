@@ -1,21 +1,15 @@
-<div align="center">
-  <img src="assets/mario-runner.svg" alt="Pixel runner banner" width="100%" />
-</div>
-
-<br/>
-
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="border: none; border-collapse: collapse;">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="border: none; border-collapse: collapse;">
   <tr>
-    <td width="150" align="center" valign="middle" style="border: none; padding-right: 30px;">
-      <img src="https://github.com/Shardz4.png" width="130" style="border-radius: 50%; border: 2px solid #30363d;" alt="Arnav Sharma" />
+    <td width="200" align="center" valign="middle" style="border: none; padding-right: 40px;">
+      <img src="https://github.com/Shardz4.png" width="180" style="border-radius: 50%; border: 3px solid #30363d;" alt="Arnav Sharma" />
     </td>
     <td valign="middle" style="border: none; text-align: left;">
-      <h1 style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; font-size: 2.2em;">Arnav Sharma</h1>
-      <p style="margin: 5px 0 15px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 1.1em; color: #8b949e; line-height: 1.4;">
+      <h1 style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 800; font-size: 3em;">Arnav Sharma</h1>
+      <p style="margin: 8px 0 20px 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 1.3em; color: #8b949e; line-height: 1.4; font-weight: 500;">
         Systems Architect &bull; ML Engineer &bull; Low-Level Enthusiast
       </p>
-      <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 0.95em; color: #c9d1d9; line-height: 1.6;">
-        🎓 <strong>NIT Hamirpur</strong> &mdash; Dual Degree (B.Tech + M.Tech), CSE<br/>
+      <p style="margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 1.15em; color: #c9d1d9; line-height: 1.8;">
+        🎓 <strong>NIT Hamirpur</strong> &mdash; Dual Degree (B.Tech + M.Tech), Computer Science & Engineering<br/>
         📍 <strong>World Map</strong> &mdash; Solan, Himachal Pradesh, India<br/>
         🧱 <strong>Current Quest</strong> &mdash; Building safety-critical, high-performance systems<br/>
         ⭐ <strong>Power-Up</strong> &mdash; "🙌 Absolute Efficiency 🙌"
